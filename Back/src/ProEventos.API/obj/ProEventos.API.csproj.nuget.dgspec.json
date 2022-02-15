@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos Csharp\\PROEVENTOS\\back\\src\\proeventos.api\\ProEventos.API.csproj": {}
+    "d:\\Projetos Csharp\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "D:\\Projetos Csharp\\PROEVENTOS\\back\\src\\proeventos.api\\ProEventos.API.csproj": {
+    "d:\\Projetos Csharp\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos Csharp\\PROEVENTOS\\back\\src\\proeventos.api\\ProEventos.API.csproj",
+        "projectUniqueName": "d:\\Projetos Csharp\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "D:\\Projetos Csharp\\PROEVENTOS\\back\\src\\proeventos.api\\ProEventos.API.csproj",
+        "projectPath": "d:\\Projetos Csharp\\PROEVENTOS\\Back\\src\\ProEventos.API\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\alexb\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos Csharp\\PROEVENTOS\\back\\src\\proeventos.api\\obj\\",
+        "outputPath": "d:\\Projetos Csharp\\PROEVENTOS\\Back\\src\\ProEventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,7 +24,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +42,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
